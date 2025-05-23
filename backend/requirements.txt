@@ -1,0 +1,13 @@
+fastapi>=0.68.0
+uvicorn>=0.15.0
+peewee>=3.14.4
+pydantic>=1.8.2
+websockets>=10.0
+pytest>=7.0.0
+pytest-asyncio>=0.18.0
+httpx>=0.24.0  # Required by TestClient
+types-peewee>=0.1.0  # For type checking
+click>=8.1.0  # For CLI interface
+rich>=13.0.0  # For beautiful terminal output
+python-socketio
+aiohttp
